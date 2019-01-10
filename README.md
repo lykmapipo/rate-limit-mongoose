@@ -19,7 +19,7 @@ $ npm install --save @lykmapipo/rate-limit-mongoose
 ```javascript
 const mongoose = require('mongoose');
 const rateLimit = require('express-rate-limit');
-const rateLimitStore = require('rate-limit-mongoose');
+const rateLimitStore = require('@lykmapipo/rate-limit-mongoose');
 
 // setup rate limiter
 const windowMs = 15 * 60 * 1000;

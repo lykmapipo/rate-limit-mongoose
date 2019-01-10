@@ -1,0 +1,70 @@
+{
+  "name": "@lykmapipo/rate-limit-mongoose",
+  "version": "0.1.0",
+  "description": "A rate limiting store for express-rate-limit with mongoose",
+  "keywords": [
+    "lykmapipo",
+    "mongoose",
+    "express",
+    "express-rate-limit",
+    "rate",
+    "limit",
+    "ratelimit",
+    "rate-limit",
+    "middleware",
+    "ip",
+    "auth",
+    "authorization",
+    "security",
+    "brute",
+    "force",
+    "bruteforce",
+    "brute-force",
+    "attack"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lykmapipo/rate-limit-mongoose.git"
+  },
+  "author": {
+    "name": "lykmapipo",
+    "email": "lallyelias87@gmail.com",
+    "url": "https://github.com/lykmapipo"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lykmapipo/rate-limit-mongoose/issues"
+  },
+  "homepage": "https://github.com/lykmapipo/rate-limit-mongoose",
+  "contributors": [
+    {
+      "name": "lykmapipo",
+      "github": "https://github.com/lykmapipo"
+    }
+  ],
+  "devDependencies": {
+    "@benmaruchu/faker": ">=4.2.1",
+    "@lykmapipo/mongoose-faker": ">=0.8.2",
+    "@lykmapipo/mongoose-test-helpers": ">=0.2.4",
+    "chai": "^4.2.0",
+    "grunt": "^1.0.3",
+    "grunt-contrib-jshint": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-mocha-test": "^0.13.3",
+    "jshint-stylish": "^2.2.1",
+    "mocha": "^5.2.0",
+    "mongoose": ">=5.4.2"
+  },
+  "peerDependencies": {
+    "mongoose": ">=5.4.2"
+  },
+  "dependencies": {
+    "@lykmapipo/mongoose-common": ">=0.8.0",
+    "async": ">=2.6.1",
+    "lodash": ">=4.17.11"
+  }
+}

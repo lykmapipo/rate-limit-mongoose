@@ -21,14 +21,10 @@ const mongoose = require('mongoose');
 const rateLimit = require('express-rate-limit');
 const rateLimitStore = require('rate-limit-mongoose');
 
+// setup rate limiter
 const windowMs = 15 * 60 * 1000;
-const url = 'mongodb://localhost/rate-limit';
-
-const store = rateLimitStore({ url, windowMs })
+const store = rateLimitStore({ windowMs });
 const limiter = rateLimit({ store, windowMs });
-
-// only if you're behind a reverse proxy (Heroku, Bluemix, AWS ELB, Nginx, etc)
-app.enable("trust proxy");
 
 //  apply to all requests
 app.use(limiter);

@@ -1,6 +1,6 @@
 {
   "name": "@lykmapipo/rate-limit-mongoose",
-  "version": "0.1.31",
+  "version": "0.1.32",
   "description": "A rate limiting store for express-rate-limit with mongoose",
   "keywords": [
     "lykmapipo",
